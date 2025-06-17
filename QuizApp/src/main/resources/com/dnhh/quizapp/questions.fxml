@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Main" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="QUẢN LÝ CÂU HỎI" />
+      <TextArea prefHeight="120.0" prefWidth="580.0" promptText="NỘI DUNG CÂU HỎI" />
+      <ComboBox prefWidth="150.0" promptText="DANH MỤC" styleClass="Main" />
+      <ComboBox prefWidth="150.0" promptText="MỨC ĐỘ" styleClass="Main" />
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="51.0" prefWidth="580.0" styleClass="Main">
+               <children>
+                  <RadioButton mnemonicParsing="false" />
+                  <TextField />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="51.0" prefWidth="580.0" styleClass="Main">
+               <children>
+                  <RadioButton mnemonicParsing="false" />
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" styleClass="Button" text="THÊM LỰA CHỌN" />
+   </children>
+</VBox>
